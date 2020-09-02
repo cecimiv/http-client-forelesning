@@ -17,7 +17,7 @@ public class QueryString {
         }
     }
 
-    public String getParameter(String status) {
+    public String getParameter(String parameterName) {
 
         return parameters.get(parameterName);
     }
